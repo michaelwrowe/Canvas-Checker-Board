@@ -2,45 +2,61 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<title>HTML</title>
+		<title>HTML5 Canvas Tutorial - Checker board </title>
 		<meta name="description" content="">
 		<meta name="author" content="Michael">
-
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 
-		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-		<link rel="shortcut icon" href="/favicon.ico">
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	</head>
 
 	<body>
 		<div>
 			<header>
-				<h1>HTML</h1>
+				<h1>HTML5 Canvas Tutorial - Checker Board</h1>
 			</header>
-			<nav>
-				<p>
-					<a href="/">Home</a>
-				</p>
-				<p>
-					<a href="/contact">Contact</a>
-				</p>
-			</nav>
-
-			<div>
-
-			</div>
-
+			<p>In this tutorial we will create a simple checker board </p>
+			<section>
+				<p>The first thing we are going to do is add a canvas element to our page and give it an ID</p>
+				<code>
+					&lt;canvas id="canvas"&gt; &lt;/canvas&gt;
+				</code>
+				<p>This is where our efforts will be displayed</p>
+			</section>
+			
+			<section>
+				<p>In our script section, we will create a variable to refer to our canvas element</p>
+				<code>
+					&lt;script&gt;<br />
+					var canvas = document.getElementById('canvas');<br />
+					&lt;/script&gt;
+					
+				</code>
+				
+			</section>
+			<section>
+				<p>Next we create another variable that will refer to the canvas API</p>
+				<code>
+					&lt;script&gt;<br />
+					var canvas = document.getElementById('canvas');<br />
+					var ctx = canvas.getContext('2d');
+					&lt;/script&gt;					
+				</code>
+				
+			</section>
 			<footer>
 				<p>
-					&copy; Copyright  by Michael
+					&copy; Copyright  by Michael Rowe
 				</p>
 			</footer>
 		</div>
+		<script>
+			
+			
+			
+			
+			
+		</script>
 	</body>
 </html>
